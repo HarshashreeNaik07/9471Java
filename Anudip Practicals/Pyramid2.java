@@ -1,10 +1,16 @@
-//for loop pattern pyramid
+//for loop pattern pyramid2
 
-public class Pyramid2{
-	public static void main(String args[]){
-	for(int i=0;i<=6;i++){
-	 for(int j=6;j>=i;j--){
+public class Pyramid2
+{
+	public static void main(String args[])
+	{
+	for(int i=0;i<=6;i++)
+	{
+	 for(int j=6;j>=i;j--)
+	 {
 	  System.out.print("*");
 	  }
 	 System.out.println();
-	 }}}
+	 }
+	}
+}
