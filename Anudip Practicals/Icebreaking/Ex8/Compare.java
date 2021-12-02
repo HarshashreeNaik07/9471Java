@@ -1,3 +1,8 @@
+//Write a Java program to compare two numbers. Go to the editor
+//Input Data:
+//Input first integer: 25
+//Input second integer: 39
+
 import java.util.Scanner;
 public class Compare{
 public static void main(String args[]){
