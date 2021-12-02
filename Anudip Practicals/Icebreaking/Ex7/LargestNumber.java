@@ -1,4 +1,10 @@
- import java.util.Scanner; 
+//Take three numbers from the user and print the greatest number. 
+//Test Data
+//Input the 1st number: 25
+//Input the 2nd number: 78
+//Input the 3rd number: 87 
+
+import java.util.Scanner; 
     public class LargestNumber{  
     public static void main(String[] args){  
     int a, b, c, largest, temp;  
