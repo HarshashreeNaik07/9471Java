@@ -1,3 +1,5 @@
+//Write a program in Java to display the cube of the number upto given an integer
+
 public class Cube{
 public static void main(String args[]){
 int i=4;
