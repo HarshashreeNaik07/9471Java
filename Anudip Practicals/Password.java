@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class Password{
-public static finl int password_length = 10;
+public static final int password_length = 10;
 public static void main(String args[]) {
 Scanner input = new Scanner(System.in);
-System.out.print("1. A pssword must have t least ten characters.\n" +
+System.out.print("1. A password must have t least ten characters.\n" +
 "2. A password consists pf only letters and digits. \n" +
 "3. A password must contin at least two digit \n" +
 "Input a password (You are agreeing to the above Terms and Conditions.): ");
