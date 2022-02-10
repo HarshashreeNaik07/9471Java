@@ -5,10 +5,11 @@ import javax.persistence.*;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "Employee_details")
+@Table(name = "Employee_data")
 @Inheritance(strategy=InheritanceType.SINGLE_TABLE) 
 
 public class Employee {
+@Id
 	private int s_id;
 	private String s_name;
 	
